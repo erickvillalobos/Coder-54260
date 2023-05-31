@@ -8,6 +8,7 @@
   padding: 1rem;
   text-align: center;
 }
+
 .principal img {
   width: 10rem;
   margin: 1rem;
@@ -24,7 +25,7 @@
   padding: 2rem;
 }
 
-.asesores a{
+.asesores a {
   color: white;
 }
 
@@ -54,8 +55,4 @@
 
 .contacto h3 {
   text-align: center;
-}
-
-h1 {
-  color: red;
 }/*# sourceMappingURL=styles.css.map */
