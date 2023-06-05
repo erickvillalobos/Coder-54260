@@ -1,58 +1,11 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+@import "variables";
+@import "index";
+@import "departamentos";
+@import "casas";
+@import "oficinas";
+@import "terrenos";
+@import "asesores";
+@import "contacto";
+@import "nosotros";
 
-.principal {
-    background-color: orange;
-    padding: 1rem;
-    text-align: center;
-}
- .principal img {
-    width: 10rem;
-    margin: 1rem;
- }
-
- .nosotros {
-    padding: 2rem;
-    text-align: center;
-  }
-
-.asesores {
-    background-color: darkblue;
-    text-align: center;
-    padding: 2rem;
-}
-
-.asesores a{
-    color: white;
-}
-
-.footer {
-    background-color: lightgray;
-    padding: 2rem;
-}
-
-.us {
-    text-align: center;
-    padding: 1rem;
-}
-
-.texto {
-    text-align: justify;
-}
-
-.mision {
-    background-color: darkblue;
-    padding: 1rem;
-    text-align: center;
-}
-
-.contacto {
-    padding: 1rem;
-}
-
-.contacto h3 {
-    text-align: center;
-}
 

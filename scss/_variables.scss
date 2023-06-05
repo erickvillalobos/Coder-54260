@@ -1,0 +1,27 @@
+$color-principal: orange;
+$color-secundario: darkblue;
+$color-footer: lightgray;
+
+@mixin orange {
+    background-color: $color-principal;
+    text-align: center;
+    padding: 1rem;
+}
+
+@mixin footer {
+    background-color: $color-footer;
+    padding: 1rem;
+}
+
+@mixin blue {
+    background-color: $color-secundario;
+    padding: 1rem;
+    text-align: center;
+}
+
+@mixin medidas($ancho, $margen, $pad){
+    width: $ancho;
+    margin: $margen;
+    padding: $pad;
+}
+

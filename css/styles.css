@@ -1,17 +1,34 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 .principal {
   background-color: orange;
-  padding: 1rem;
   text-align: center;
+  padding: 1rem;
 }
 
 .principal img {
   width: 10rem;
   margin: 1rem;
+  padding: 0rem;
+}
+
+.principal a {
+  text-decoration: none;
+  color: white;
+}
+
+.asesores {
+  background-color: darkblue;
+  padding: 1rem;
+  text-align: center;
+}
+
+.asesores img {
+  width: 20rem;
+  margin: 1rem;
+  padding: 0rem;
+}
+
+.asesores a {
+  text-decoration: none;
 }
 
 .nosotros {
@@ -19,10 +36,159 @@
   text-align: center;
 }
 
+.footer {
+  background-color: lightgray;
+  padding: 1rem;
+}
+
+.footer img {
+  width: 5rem;
+  margin: 0rem;
+  padding: 0rem;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer li {
+  list-style: none;
+}
+
+.principal_depa {
+  background-color: orange;
+  text-align: center;
+  padding: 1rem;
+}
+
+.principal_depa img {
+  width: 10rem;
+  margin: 1rem;
+  padding: 0rem;
+}
+
+.footer {
+  background-color: lightgray;
+  padding: 1rem;
+}
+
+.footer img {
+  width: 5rem;
+  margin: 0rem;
+  padding: 0rem;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer li {
+  list-style: none;
+}
+
+.principal_casas {
+  background-color: orange;
+  text-align: center;
+  padding: 1rem;
+}
+
+.principal_casas img {
+  width: 10rem;
+  margin: 1rem;
+  padding: 0rem;
+}
+
+.footer {
+  background-color: lightgray;
+  padding: 1rem;
+}
+
+.footer img {
+  width: 5rem;
+  margin: 0rem;
+  padding: 0rem;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer li {
+  list-style: none;
+}
+
+.principal_ofi {
+  background-color: orange;
+  text-align: center;
+  padding: 1rem;
+}
+
+.principal_ofi img {
+  width: 10rem;
+  margin: 1rem;
+  padding: 0rem;
+}
+
+.footer {
+  background-color: lightgray;
+  padding: 1rem;
+}
+
+.footer img {
+  width: 5rem;
+  margin: 0rem;
+  padding: 0rem;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer li {
+  list-style: none;
+}
+
+.principal_terre {
+  background-color: orange;
+  text-align: center;
+  padding: 1rem;
+}
+
+.principal_terre img {
+  width: 10rem;
+  margin: 1rem;
+  padding: 0rem;
+}
+
+.footer {
+  background-color: lightgray;
+  padding: 1rem;
+}
+
+.footer img {
+  width: 5rem;
+  margin: 0rem;
+  padding: 0rem;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer li {
+  list-style: none;
+}
+
 .asesores {
   background-color: darkblue;
+  padding: 1rem;
   text-align: center;
-  padding: 2rem;
+}
+
+.asesores img {
+  width: 20rem;
+  margin: 1rem;
+  padding: 0rem;
 }
 
 .asesores a {
@@ -31,22 +197,21 @@
 
 .footer {
   background-color: lightgray;
-  padding: 2rem;
-}
-
-.us {
-  text-align: center;
   padding: 1rem;
 }
 
-.texto {
-  text-align: justify;
+.footer img {
+  width: 5rem;
+  margin: 0rem;
+  padding: 0rem;
 }
 
-.mision {
-  background-color: darkblue;
-  padding: 1rem;
-  text-align: center;
+.footer a {
+  text-decoration: none;
+}
+
+.footer li {
+  list-style: none;
 }
 
 .contacto {
@@ -55,4 +220,57 @@
 
 .contacto h3 {
   text-align: center;
+}
+
+.footer {
+  background-color: lightgray;
+  padding: 1rem;
+}
+
+.footer img {
+  width: 5rem;
+  margin: 0rem;
+  padding: 0rem;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer li {
+  list-style: none;
+}
+
+.texto {
+  text-align: justify;
+}
+
+.us h3 {
+  text-align: center;
+  padding: 1rem;
+}
+
+.mision {
+  background-color: darkblue;
+  padding: 1rem;
+  text-align: center;
+}
+
+.footer {
+  background-color: lightgray;
+  padding: 1rem;
+}
+
+.footer img {
+  width: 5rem;
+  margin: 0rem;
+  padding: 0rem;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer li {
+  list-style: none;
 }/*# sourceMappingURL=styles.css.map */

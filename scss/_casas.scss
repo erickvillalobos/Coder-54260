@@ -1,0 +1,27 @@
+
+
+.principal_casas {
+    @include orange;
+}
+
+.principal_casas img {
+    @include medidas(10rem, 1rem, 0rem)
+}
+
+.footer {
+    @include footer;
+}
+
+.footer img {
+    @include medidas(5rem, 0rem, 0rem)
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer li {
+    list-style: none;
+}
+
+

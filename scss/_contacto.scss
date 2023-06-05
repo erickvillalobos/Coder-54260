@@ -1,0 +1,23 @@
+.contacto {
+    padding: 1rem;
+}
+
+.contacto h3 {
+    text-align: center;
+}
+
+.footer {
+    @include footer;
+}
+
+.footer img {
+    @include medidas(5rem, 0rem, 0rem)
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer li {
+    list-style: none;
+}

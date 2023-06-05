@@ -1,0 +1,29 @@
+.texto {
+    text-align: justify;
+}
+
+.us h3 {
+    text-align: center;
+    padding: 1rem;
+}
+
+.mision {
+    @include blue;
+}
+
+.footer {
+    @include footer;
+}
+
+.footer img {
+    @include medidas(5rem, 0rem, 0rem)
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer li {
+    list-style: none;
+}
+

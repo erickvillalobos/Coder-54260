@@ -1,0 +1,27 @@
+.asesores {
+    @include blue;
+}
+
+.asesores img {
+    @include medidas(20rem, 1rem, 0rem)
+}
+
+.asesores a {
+    color: white;
+}
+
+.footer {
+    @include footer;
+}
+
+.footer img {
+    @include medidas(5rem, 0rem, 0rem)
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer li {
+    list-style: none;
+}
