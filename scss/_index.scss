@@ -3,7 +3,11 @@
 }
 
 .principal img {
-    @include medidas(10rem, 1rem, 0rem)
+    @include medidas(10rem, 1rem, 0rem)   
+}
+
+.principal img:hover {
+    transform: scale(1.2);
 }
 
 .principal a {
@@ -17,6 +21,14 @@
 
 .asesores img {
     @include medidas(20rem, 1rem, 0rem)
+}
+
+.asesores a {
+    color: white;
+}
+
+.asesores img:hover {
+    transform: scale(1.1);
 }
 
 .asesores a {
@@ -36,12 +48,18 @@
     @include medidas(5rem, 0rem, 0rem)
 }
 
+.footer img:hover {
+    transform: scale(1.1);
+}
+
 .footer a {
     text-decoration: none;
+    padding: .5rem;
 }
 
 .footer li {
     list-style: none;
+    padding: 1rem;
 }
 
 

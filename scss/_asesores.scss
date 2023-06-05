@@ -1,12 +1,12 @@
-.asesores {
+.us {
     @include blue;
 }
 
-.asesores img {
+.us img {
     @include medidas(20rem, 1rem, 0rem)
 }
 
-.asesores a {
+.us {
     color: white;
 }
 
@@ -18,10 +18,16 @@
     @include medidas(5rem, 0rem, 0rem)
 }
 
+.footer img:hover {
+    transform: scale(1.1);
+}
+
 .footer a {
     text-decoration: none;
+    padding: .5rem;
 }
 
 .footer li {
     list-style: none;
+    padding: 1rem;
 }

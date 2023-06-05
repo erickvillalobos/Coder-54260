@@ -10,14 +10,16 @@
     @include footer;
 }
 
-.footer img {
-    @include medidas(5rem, 0rem, 0rem)
+.footer img:hover {
+    transform: scale(1.1);
 }
 
 .footer a {
     text-decoration: none;
+    padding: .5rem;
 }
 
 .footer li {
     list-style: none;
+    padding: 1rem;
 }
