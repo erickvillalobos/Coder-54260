@@ -16,6 +16,12 @@
     @include medidas(5rem, 0rem, 0rem)
 }
 
+@media (max-width: 600px) {
+    .footer img {
+        @include medidas(3rem,0rem,0rem)
+    }
+}
+
 .footer img:hover {
     transform: scale(1.1);
 }
